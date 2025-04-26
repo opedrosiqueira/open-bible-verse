@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Bible Shortcut Opener",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "clipboardWrite"
+    ],
+    "host_permissions": [
+        "https://www.bibliaonline.com.br/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "open_bible_input": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Y"
+            },
+            "description": "Open Bible Input"
+        },
+        "copy_highlighted": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+X"
+            },
+            "description": "Copy highlighted verses"
+        }
+    }
+}

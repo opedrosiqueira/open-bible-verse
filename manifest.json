@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Bible Shortcut Opener",
+    "name": "Bible Navigator",
     "version": "1.0",
     "permissions": [
         "tabs",
